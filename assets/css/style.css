@@ -82,6 +82,11 @@ header nav a {
   margin-left: 0;
   margin-top: 1.4vh;
 }
+.ellipsePage2 {
+  position: fixed;
+  margin-left: 0;
+  margin-top: 26.3vh;
+}
 .ellipsePage3 {
   position: fixed;
   margin-left: 0;
@@ -220,4 +225,23 @@ header nav a {
 }
 .gridbottomleft {
   margin-right: 3vw;
+}
+/*--------------------------Page 2 Main----------------------------*/
+body#page2body {
+  background-image: url("../img/section-experience-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 62.5%;
+}
+.page2main {
+  background-color: #2e2e2e;
+  height: 100vh;
+  margin-left: 58vw;
+  padding-left: 2vw;
+  padding-right: 11vw;
+}
+.page2article {
+  text-align: left;
+  font-size: 3rem;
 }

@@ -17,6 +17,19 @@ body {
   box-sizing: border-box;
   background-color: #2e2e2e;
 }
+main {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 15vh;
+  text-align: center;
+}
+h3 {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #ebccc2;
+}
+/* ------------ HEADER ---------------*/
+
 header {
   height: 10vh;
   display: flex;
@@ -35,6 +48,8 @@ header nav a {
   color: #867772;
   margin-left: 3vw;
 }
+
+/* ---------------  SIDEBAR ----------------*/
 .sidenav {
   width: 15vw;
   height: 500p;
@@ -45,11 +60,6 @@ header nav a {
   margin-left: 2vw;
   font-size: 4rem;
   font-family: WorkSans;
-}
-.sidenav img {
-  position: fixed;
-  margin-left: 0;
-  margin-top: 1.4vh;
 }
 .sidenav a {
   text-decoration: none;
@@ -64,12 +74,26 @@ header nav a {
   margin-left: 0.7vw;
   margin-top: 1vh;
 }
-main {
-  padding-left: 5vw;
-  padding-right: 5vw;
-  padding-top: 15vh;
-  text-align: center;
+
+/* ---------------SIDEBAR ELLIPSEN POSITION----*/
+
+.ellipsePage1 {
+  position: fixed;
+  margin-left: 0;
+  margin-top: 1.4vh;
 }
+.ellipsePage3 {
+  position: fixed;
+  margin-left: 0;
+  margin-top: 38.7vh;
+}
+/*-----------------SIDEBAR SPANS--------------*/
+.pagepointer {
+  color: #ebccc2;
+  font-weight: 500;
+}
+/*----------------------Main Section Page1-----*/
+
 .mainFirstSection {
   margin-bottom: 10vh;
 }
@@ -106,11 +130,94 @@ main {
   text-align: left;
 }
 .mainSecondSection h3 {
-  font-size: 3rem;
-  font-weight: 300;
-  color: #ebccc2;
   margin-bottom: 2vh;
 }
 .mainSecondSection p {
   margin-bottom: 2vh;
+}
+
+/* ------------ MAIN SECTION PAGE3 -----------------*/
+
+.Page3main {
+  margin-left: 15vw;
+  color: #737373;
+}
+.mainFirstSectionPage3 {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  height: auto;
+  text-align: left;
+}
+.Page3main video {
+  margin-left: 2vw;
+  margin-bottom: 15vh;
+  width: 60vw;
+}
+.Page3main h4 {
+  font-size: 3rem;
+  font-weight: 200;
+  color: #ebccc2;
+  margin-bottom: 2vh;
+}
+.Page3main h1 {
+  color: #ebccc2;
+  font-size: 5rem;
+  font-weight: 400;
+  margin-bottom: 3vh;
+}
+.Page3main ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 2.5rem;
+  font-weight: 300;
+  gap: 5px;
+  margin-bottom: 2vh;
+}
+.Page3main li {
+  border: 2px solid #fff;
+  border-radius: 6px;
+  padding: 0.5vh 1vw;
+}
+.Page3main p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 15vh;
+}
+
+/* ------------------GRID CONTAINER PAGE3 ------------*/
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 62vw;
+  text-align: left;
+  align-items: center;
+  color: #ebccc2;
+  padding-bottom: 10vh;
+}
+.gridContainer img {
+  width: 31vw;
+}
+.gridContainer h5 {
+  font-size: 3rem;
+  font-weight: 200;
+  margin-bottom: 1vh;
+}
+.gridContainer h3 {
+  font-size: 3.5rem;
+  margin-bottom: 1vh;
+}
+.gridContainer p {
+  color: #737373;
+  line-height: 2vh;
+  font-size: 2rem;
+  font-weight: 300;
+}
+.gridtopright {
+  margin-left: 1vw;
+}
+.gridbottomleft {
+  margin-right: 3vw;
 }

@@ -17,6 +17,28 @@ body {
   box-sizing: border-box;
   background-color: #2e2e2e;
 }
+body#page2body {
+  background-image: url("../img/section-experience-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 62.5%;
+}
+body#page4body {
+  background-image: url("../img/section-voyager.jpg");
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  font-size: 62.5%;
+}
+body#page5body {
+  background-image: url("../img/section-composition4.jpg");
+  background-position: left;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  font-size: 62.5%;
+  background-color: #1e1613;
+}
 main {
   padding-left: 5vw;
   padding-right: 5vw;
@@ -41,17 +63,23 @@ header {
 }
 header nav {
   font-size: 2.5rem;
-  margin-left: 53vw;
+  margin-left: 51vw;
 }
 header nav a {
   text-decoration: none;
   color: #867772;
   margin-left: 3vw;
+  transition: 0.3s;
+}
+header nav a:hover {
+  color: #ebccc2;
+  font-weight: 500;
+  text-decoration: underline;
 }
 
 /* ---------------  SIDEBAR ----------------*/
 .sidenav {
-  width: 15vw;
+  width: 10vw;
   height: 500p;
   position: fixed;
   z-index: 1;
@@ -76,6 +104,11 @@ header nav a {
 }
 .sidenav span {
   font-size: 15px;
+  transition: 0.3s;
+}
+.sidenav span:hover {
+  color: #ebccc2;
+  font-weight: 500;
 }
 /* ---------------SIDEBAR ELLIPSEN POSITION----*/
 
@@ -242,28 +275,12 @@ header nav a {
 .gridbottomleft {
   margin-right: 3vw;
 }
-/*--------------------------Page 2 Main----------------------------*/
-body#page2body {
-  background-image: url("../img/section-experience-1.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-size: 62.5%;
-}
-body#page4body {
-  background-image: url("../img/section-voyager.jpg");
-  background-size: contain;
-  background-position: left;
-  background-repeat: no-repeat;
-  font-size: 62.5%;
-  display: flex;
-  background-position-x: -10vw;
-}
+/*--------------------------Page 2,4 Main----------------------------*/
 .productmain {
   background-color: #2e2e2e;
   height: 85vh;
-  margin-left: 58vw;
-  padding-left: 2vw;
+  margin-left: 55vw;
+  padding-left: 4vw;
   padding-right: 11vw;
 }
 .productarticle {
@@ -284,4 +301,30 @@ body#page4body {
   margin-bottom: 5vh;
   font-size: 2rem;
 }
-/*----------------------------PAGE 4 MAIN---------------------/*
+/*----------------------------PAGE 5 MAIN---------------------*/
+.productmain5 {
+  background-color: #2e2e2e;
+  height: 85vh;
+  margin-left: 55vw;
+  padding-left: 4vw;
+  padding-right: 11vw;
+}
+.productmain5 img {
+  margin-bottom: 5vh;
+}
+.productmain5 article {
+  text-align: center;
+}
+.productmain5 p {
+  color: #737373;
+  font-weight: 300;
+  line-height: 3vh;
+  margin-bottom: 3vh;
+  font-size: 2rem;
+}
+.productmain5 a {
+  text-decoration: none;
+  background-color: #ebccc2;
+  padding: 1vh 2vw;
+  color: #2e2e2e;
+}

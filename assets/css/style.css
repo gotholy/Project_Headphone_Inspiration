@@ -58,39 +58,48 @@ header nav a {
   overflow-x: hidden;
   top: 17vh;
   margin-left: 2vw;
-  font-size: 4rem;
   font-family: WorkSans;
 }
 .sidenav a {
   text-decoration: none;
   color: #867772;
   font-weight: 200;
-  word-spacing: 2vw;
-  margin-left: 0.5vw;
+  word-spacing: 20px;
+  margin-left: 20px;
+  font-size: 35px;
 }
 .sidenav div {
   height: 60px;
   border-left: solid #737373;
-  margin-left: 0.7vw;
-  margin-top: 1vh;
+  margin-left: 29px;
+  margin-top: 5px;
 }
-
+.sidenav span {
+  font-size: 15px;
+}
 /* ---------------SIDEBAR ELLIPSEN POSITION----*/
 
 .ellipsePage1 {
   position: fixed;
-  margin-left: 0;
-  margin-top: 1.4vh;
+  margin-left: 14px;
+  margin-top: 7px;
 }
 .ellipsePage2 {
   position: fixed;
-  margin-left: 0;
-  margin-top: 26.3vh;
+  margin-left: 14px;
+  margin-top: 222px;
 }
 .ellipsePage3 {
   position: fixed;
-  margin-left: 0;
-  margin-top: 38.7vh;
+  margin-left: 12.5px;
+  margin-top: 328px;
+  width: 35px;
+}
+.ellipsePage4 {
+  position: fixed;
+  margin-left: 12.5px;
+  margin-top: 114px;
+  width: 35px;
 }
 /*-----------------SIDEBAR SPANS--------------*/
 .pagepointer {
@@ -236,7 +245,7 @@ body#page2body {
 }
 .page2main {
   background-color: #2e2e2e;
-  height: 100vh;
+  height: 85vh;
   margin-left: 58vw;
   padding-left: 2vw;
   padding-right: 11vw;

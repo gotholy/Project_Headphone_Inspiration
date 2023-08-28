@@ -1,0 +1,114 @@
+@font-face {
+  font-family: WorkSans;
+  src: url("../fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  font-family: WorkSans, "Lucida Grande", "Lucida Sans", "Lucida Sans Regular";
+}
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: auto;
+  box-sizing: border-box;
+  background-color: #2e2e2e;
+}
+header {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2vw;
+  margin-right: 4vw;
+}
+header nav {
+  font-size: 2.5rem;
+}
+header nav a {
+  text-decoration: none;
+  color: #867772;
+  margin-left: 3vw;
+}
+.sidenav {
+  width: 15vw;
+  height: 500p;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  top: 17vh;
+  margin-left: 2vw;
+  font-size: 4rem;
+  font-family: WorkSans;
+}
+.sidenav img {
+  position: fixed;
+  margin-left: 0;
+  margin-top: 1.4vh;
+}
+.sidenav a {
+  text-decoration: none;
+  color: #867772;
+  font-weight: 200;
+  word-spacing: 2vw;
+  margin-left: 0.5vw;
+}
+.sidenav div {
+  height: 60px;
+  border-left: solid #737373;
+  margin-left: 0.7vw;
+  margin-top: 1vh;
+}
+main {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 4vh;
+  text-align: center;
+}
+.mainFirstSection {
+  margin-bottom: 10vh;
+}
+.mainFirstSection h2 {
+  font-size: 2rem;
+  font-size: WorkSans;
+  color: #ebccc2;
+  font-weight: 300;
+  width: 13vw;
+  margin-left: 30vw;
+  margin-bottom: 17vh;
+}
+.mainFirstSection img {
+  width: 90vw;
+  height: 170vh;
+}
+.mainSecondSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20vh;
+}
+.mainSecondSection img {
+  width: 45%;
+}
+.mainSecondSection article {
+  width: 45%;
+  color: #737373;
+  font-size: 3.5rem;
+  font-weight: 300;
+  text-align: left;
+}
+.mainSecondSection h3 {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #ebccc2;
+  margin-bottom: 2vh;
+}
+.mainSecondSection p {
+  margin-bottom: 2vh;
+}

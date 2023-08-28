@@ -35,8 +35,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 2vw;
-  margin-right: 4vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
   position: fixed;
 }
 header nav {
@@ -101,6 +101,12 @@ header nav a {
   margin-top: 114px;
   width: 35px;
 }
+.ellipsePage5 {
+  position: fixed;
+  margin-left: 12.5px;
+  margin-top: 436px;
+  width: 35px;
+}
 /*-----------------SIDEBAR SPANS--------------*/
 .pagepointer {
   color: #ebccc2;
@@ -117,8 +123,9 @@ header nav a {
   color: #ebccc2;
   font-weight: 300;
   width: 13vw;
-  margin-left: 30vw;
+  margin-left: 25vw;
   margin-bottom: 17vh;
+  text-align: left;
 }
 .mainFirstSection img {
   width: 90vw;
@@ -243,14 +250,38 @@ body#page2body {
   background-repeat: no-repeat;
   font-size: 62.5%;
 }
-.page2main {
+body#page4body {
+  background-image: url("../img/section-voyager.jpg");
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  font-size: 62.5%;
+  display: flex;
+  background-position-x: -10vw;
+}
+.productmain {
   background-color: #2e2e2e;
   height: 85vh;
   margin-left: 58vw;
   padding-left: 2vw;
   padding-right: 11vw;
 }
-.page2article {
+.productarticle {
   text-align: left;
   font-size: 3rem;
 }
+.productmain h1 {
+  font-size: 6rem;
+  font-weight: 300;
+  color: #ebccc2;
+  margin-bottom: 12vh;
+  margin-top: 5vh;
+}
+.productmain p {
+  color: #737373;
+  font-weight: 300;
+  line-height: 3vh;
+  margin-bottom: 5vh;
+  font-size: 2rem;
+}
+/*----------------------------PAGE 4 MAIN---------------------/*

@@ -39,6 +39,12 @@ body#page5body {
   font-size: 62.5%;
   background-color: #1e1613;
 }
+#bodycontact {
+  background-image: url("../img/section-composition4.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 main {
   padding-left: 5vw;
   padding-right: 5vw;
@@ -151,7 +157,7 @@ header nav a:hover {
   margin-bottom: 10vh;
 }
 .mainFirstSection h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-size: WorkSans;
   color: #ebccc2;
   font-weight: 300;
@@ -162,7 +168,6 @@ header nav a:hover {
 }
 .mainFirstSection img {
   width: 90vw;
-  height: 170vh;
 }
 .mainSecondSection {
   display: flex;
@@ -310,7 +315,7 @@ header nav a:hover {
   padding-right: 11vw;
 }
 .productmain5 img {
-  margin-bottom: 5vh;
+  margin-bottom: 3vh;
 }
 .productmain5 article {
   text-align: center;
